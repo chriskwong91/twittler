@@ -1,0 +1,61 @@
+ body {
+ 	background-color: #e6e6e6;
+ 	text-align: center;
+ }
+
+header {
+	font-family: arial;
+	display: inline-block;
+	font-size: 20px;
+	background-color: powderblue;
+	padding: 2px;
+	margin: 2px;
+	width: 200px;
+	border-radius: 25px;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+h2 {
+	float: left;
+}
+
+#tweets-wrapper {
+	text-align: center;
+}
+#tweets {
+	text-align: center;
+	display: inline-block;
+	border-radius: 25px;
+	margin: 30px;
+	background-color: powderblue;
+	width: 500px;
+}
+
+li {
+	text-align: left;
+	display: inline-block;
+	margin: 10px;
+	width: 400px;
+	height: 125px;
+	background-color: #e6e6e6;
+	border-radius: 25px;
+	opacity: .75;
+	position: relative;
+}
+
+.user {
+	float:left;
+	padding-top: 0px;
+}
+
+.message {
+	text-align: center;
+	padding-top: 35px;
+	width: 250px;
+	padding-left: 75px;
+}
