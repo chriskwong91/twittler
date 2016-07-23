@@ -5,16 +5,35 @@
     <script src="data_generator.js"></script>
     <script src="application.js"></script>
     <link rel='stylesheet' href='myStyle.css'>
-    <title>Twittler</title>
+    <title>twittler</title>
   </head>
   <body>
     <header>
-      <h1>Twittler</h1>
+      <h1>twittler</h1>
     </header>
     <div id="tweets-wrapper">
       <ul id="tweets">
-          <h2>Recent Tweets:</h2>
+          <h2>recent tweets:</h2>
+          <!-- Layout for tweets -->
+          <li id="tweet">
+            <h4 class='user'></h4>
+            <p class='message'></p>
+            <p class='time'></p>
+
+          </li>
       </ul>
     </div>
+        <!-- Layout for popup Modal -->
+    <div id="modals">
+      <div id="modal" class="modal-content">
+        <div class="modal-header">
+             <h2 class="modal-header-heading"></h2>
+             <span class="close">x</span>
+             <br><br><br><br>
+        </div>
+        <div class="modal-body">
+        </div>
+      </div>
+    </div>  
   </body>
 </html>

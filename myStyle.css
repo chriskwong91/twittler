@@ -8,25 +8,22 @@ header {
 	display: inline-block;
 	font-size: 20px;
 	background-color: powderblue;
-	padding: 2px;
+	padding: 1px;
 	margin: 2px;
 	width: 200px;
-	border-radius: 25px;
+	border-radius: 50px;
 	text-align: center;
 }
 
 ul {
 	list-style-type: none;
-	text-align: center;
+
 }
 
 h2 {
 	float: left;
 }
 
-#tweets-wrapper {
-	text-align: center;
-}
 #tweets {
 	text-align: center;
 	display: inline-block;
@@ -36,26 +33,80 @@ h2 {
 	width: 500px;
 }
 
-li {
-	text-align: left;
+#twet {
+	font-family: arial;
 	display: inline-block;
 	margin: 10px;
 	width: 400px;
-	height: 125px;
+	height: 175px;
 	background-color: #e6e6e6;
-	border-radius: 25px;
-	opacity: .75;
-	position: relative;
+	border-radius: 10px;
 }
 
 .user {
+	font-size: 15px;
 	float:left;
 	padding-top: 0px;
 }
 
+.user:hover {
+	color: blue;
+	cursor: pointer;
+	cursor: hand;
+}
+
 .message {
 	text-align: center;
-	padding-top: 35px;
+	padding-top: 50px;
+	margin: 0px;
 	width: 250px;
 	padding-left: 75px;
+}
+
+.time {
+	font-size: 12px;
+	float: right;
+	height: 55px;
+	padding-top: 50px;
+}
+
+#modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    overflow: auto; 
+   	background-color: #e6e6e6;
+}
+
+.modal-content {
+    margin: 20% 20%; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 400px; 
+
+}
+
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover {
+    color: #aaa;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    color: black;
+}
+
+.modal-body {
+	margin: 10px;
+	padding: 10px;
+	background-color: powderblue;
+	font-size: 15px;
 }
